@@ -65,7 +65,9 @@ const Login = () => {
       
       await axios.get(`http://localhost:5001/user?email=${state.formdata.email}&password=${state.formdata.password}`)
       .then(function(response) {
-        setData(response.data);
+        // setData(response.data);
+// console.log(response.data[0].role);
+console.log("done");
           // console.log(response.data[0].role);
           // console.log(response.data[0]./password);
           // console.log(response.data[1]);

@@ -12,16 +12,24 @@ const App = createBrowserRouter([
     element: <Home/>
   },
   {
-    path: "/home",
+    path: "home",
     element: <Home/>
   },
   {
-    path: "/Login",
+    path: "Login",
     element: <Login/>
   },
   {
-    path:"/Signpage",
+    path:"Signpage",
     element:<Signpage/>
+  },
+  {
+    path:"/Login/Signpage",
+    element:<Signpage/>
+  },
+  {
+    path:"Login/Signpage/Login",
+    element:<Login/>
   },
   {
     path:"Dashboard",

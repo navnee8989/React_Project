@@ -34,101 +34,25 @@
     },
     {
       "role": 2,
-      "email": "mp760800@gmail.com",
-      "password": "123navneet",
+      "email": "Navneetsondarva@gmail.com",
+      "password": "3540@Navneet",
       "id": 7
     },
     {
       "role": 2,
-      "email": "Navneet@gmail.com",
-      "password": "123Navneet",
       "id": 8
     },
     {
       "role": 2,
-      "email": "Navneet@gmail.com",
-      "password": "123Navneet",
       "id": 9
     },
     {
       "role": 2,
-      "email": "Navneet@gmail.com",
-      "password": "123Navneet",
       "id": 10
     },
     {
       "role": 2,
-      "email": "mp760800@gmail.com",
-      "password": "123Navneet",
       "id": 11
-    },
-    {
-      "role": 2,
-      "email": "mp760800@gmail.com",
-      "password": "123Navneet",
-      "id": 12
-    },
-    {
-      "role": 2,
-      "email": "test@gmail.com",
-      "password": "test123",
-      "id": 13
-    },
-    {
-      "role": 2,
-      "email": "test@gmail.com",
-      "password": "test123",
-      "id": 14
-    },
-    {
-      "role": 2,
-      "email": "test@gmail.com",
-      "password": "test123",
-      "id": 15
-    },
-    {
-      "role": 2,
-      "email": "test@gmail.com",
-      "password": "test123",
-      "id": 16
-    },
-    {
-      "role": 2,
-      "email": "test@gmail.com",
-      "password": "test123",
-      "id": 17
-    },
-    {
-      "role": 2,
-      "email": "test@gmail.com",
-      "password": "test123",
-      "id": 18
-    },
-    {
-      "role": 2,
-      "id": 19
-    },
-    {
-      "role": 2,
-      "id": 20
-    },
-    {
-      "role": 2,
-      "email": "Navneet@gmail.com",
-      "password": "123@Navneet",
-      "id": 21
-    },
-    {
-      "role": 2,
-      "email": "Navneet@gmail.com",
-      "password": "2589",
-      "id": 22
-    },
-    {
-      "role": 2,
-      "email": "mp760800@gmail.com",
-      "password": "123Navneet",
-      "id": 23
     }
   ]
 }

@@ -19,10 +19,17 @@ function Signpage() {
     axios.post("http://localhost:5001/user",inp).then(response =>{
       console.log("Success DATA STORE");
       console.log(response.data.email);
-      navigate("/login")
+      // navigate("/login")
+      
     }).catch(error =>{
       console.log(error);
     })
+    if (inp.value == "") {
+      throw new console.error("not Valid data");
+    }
+    else{
+      navigate("Login")
+    }
       // fetch('http://localhost:5001/user',{
       //   method: "POST",
       //   headers:{'Content-Type': "application/json"},
@@ -49,7 +56,7 @@ function Signpage() {
 
   return (
     <Fragment>
-    <Header />
+    {/* <Header /> */}
       <Container>
         <h1>facebook</h1>
         <Box>
@@ -103,7 +110,7 @@ const Container = styled.div`
 const Box = styled.div`
   /* border: 1px solid red; */
   border-radius: 20px;
-  width: 35%;
+  width: 32%;
   height: 80vh;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
@@ -130,7 +137,7 @@ const Title = styled.div`
 `;
 const Data = styled.div`
   form {
-    padding-top: 50px;
+    ${'' /* padding-top: 50px; */}
     display: flex;
     justify-content: center;
     align-items: center;

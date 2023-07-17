@@ -8,12 +8,20 @@ import {
   MDBNavbarItem,
   MDBNavbarLink,
   MDBIcon,
-  MDBCollapse
+  MDBCollapse,
+  MDBBtn
 } from 'mdb-react-ui-kit';
 import { Link } from 'react-router-dom';
+// import Button from '@mui/material/Button'
+import { useNavigate } from 'react-router-dom';
 
 export default function Header() {
   const [showNavSecond, setShowNavSecond] = useState(false);
+  const navigate = useNavigate()
+
+  const handleLogin = ()=>{
+    navigate("Login")
+  }
 
   return (
     <MDBNavbar expand='lg' light bgColor='light'>
@@ -33,6 +41,7 @@ export default function Header() {
                 Home
               </Link>
             </MDBNavbarLink>
+
             <MDBNavbarLink > <Link to='Login'>
                 Login
               </Link></MDBNavbarLink>
@@ -44,6 +53,9 @@ export default function Header() {
               Disabled
             </MDBNavbarLink> */}
           </MDBNavbarNav>
+        <MDBBtn variant="text" color="primary" onClick={handleLogin}>
+          Login
+        </MDBBtn>
         </MDBCollapse>
       </MDBContainer>
     </MDBNavbar>
