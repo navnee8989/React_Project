@@ -1,0 +1,120 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "user": [
+    {
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{\"role\":2,\"email\":\"mp760800@gmail.com\",\"password\":\"123navneet\"}",
+      "id": 6
+    },
+    {
+      "role": 2,
+      "name": "nbb",
+      "email": "Navneet@gmail.com",
+      "password": "123Navneet",
+      "id": 8
+    },
+    {
+      "role": 2,
+      "name": "nbb",
+      "email": "mp760800@gmail.com",
+      "password": "123Navneet",
+      "id": 11
+    },
+    {
+      "role": 2,
+      "name": "nbb",
+      "email": "test@gmail.com",
+      "password": "test123",
+      "id": 13
+    },
+    {
+      "role": 2,
+      "name": "nbb",
+      "email": "test@gmail.com",
+      "password": "test123",
+      "id": 14
+    },
+    {
+      "role": 2,
+      "name": "nbb",
+      "email": "test@gmail.com",
+      "password": "test123",
+      "id": 15
+    },
+    {
+      "role": 2,
+      "name": "nbb",
+      "email": "test@gmail.com",
+      "password": "test123",
+      "id": 16
+    },
+    {
+      "role": 2,
+      "name": "nbb",
+      "email": "test@gmail.com",
+      "password": "test123",
+      "id": 17
+    },
+    {
+      "role": 2,
+      "name": "nbb",
+      "email": "test@gmail.com",
+      "password": "test123",
+      "id": 18
+    },
+    {
+      "role": 2,
+      "name": "nbb",
+      "email": "Navneet@gmail.com",
+      "password": "123@Navneet",
+      "id": 21
+    },
+    {
+      "role": 2,
+      "name": "nbb",
+      "email": "Navneet@gmail.com",
+      "password": "2589",
+      "id": 22
+    },
+    {
+      "role": 2,
+      "name": "nbb",
+      "email": "mp760800@gmail.com",
+      "password": "123Navneet",
+      "id": 23
+    },
+    {
+      "role": 2,
+      "name": "nbb",
+      "email": "nirali@gmail.com",
+      "password": "3417@Navneet",
+      "id": 24
+    },
+    {
+      "role": 2,
+      "name": "nbb",
+      "email": "Admin@gmail.com",
+      "password": "123",
+      "id": 25
+    }
+  ]
+}
