@@ -3,7 +3,7 @@ import { useState } from "react";
 const App = () => {
   const [inputVal, setInputVal] = useState("");
   const [tasks, setTasks] = useState([]);
-  const [editMode, setEditMode] = useState(null); // Store the index of the task in edit mode
+  const [editMode, setEditMode] = useState(null);
 
   const handleChange = (e) => {
     setInputVal(e.target.value);
@@ -17,7 +17,7 @@ const App = () => {
   const handleDelete = (index) => {
     const updatedTasks = tasks.filter((_, i) => i !== index);
     setTasks(updatedTasks);
-    setEditMode(null); // Exit edit mode if deleting a task
+    setEditMode(null); 
   };
 
   const handleEdit = (index) => {
@@ -30,7 +30,7 @@ const App = () => {
     updatedTasks[index] = inputVal;
     setTasks(updatedTasks);
     setInputVal("");
-    setEditMode(null); // Exit edit mode after saving
+    setEditMode(null); 
   };
 
   return (
